@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+/* Général */
+
+html, body {
+    margin: 0; padding: 0;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+
+/* Header (preface + game) */
+
+.header_preface {
+    margin: 0; padding: 5px 30px;
+    border-bottom: 3px solid #2980b9;
+    width: auto; height: auto;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #3498db; color: #ecf0f1;
+    display: block;
+}
+
+.header_game {
+    margin: 0; padding: 5px 30px;
+    border-bottom: 3px solid #2980b9;
+    width: auto; height: auto;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #3498db; color: #ecf0f1;
+    display: none;
+}
+
+.score {
+    float: left;
+    text-align: left;
+}
+
+.time {
+    text-align: right;
+}
+
+.red {
+    color: red;
+}
+
+/* Wrap */
+
+.wrap {
+    position: absolute;
+    margin-left: -69px;
+    top: 85px; left: 50%;
+}
+
+/* Button */
+
+.button {
+    width: auto;
+    margin: 0 auto; padding: 10px 20px;
+    background-color: #34495e; color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2c3e50;
+}
+
+/* Bulles */
+
+.bubbles {
+    position: absolute;
+    background-color: rgba(235, 126, 22, 1);
+    width: 35px; height: 35px;
+    border-radius: 100px;
+}
+
+.bubbles_blue {
+    position: absolute;
+    background-color: #3498db;
+    width: 35px; height: 35px;
+    border-radius: 100px;
+}
+
+.bubbles_green  {
+    position: absolute;
+    background-color: #27ae60;
+    width: 35px; height: 35px;
+    border-radius: 100px;
+}
+
+/* End Time */
+
+.end {
+    position: absolute;
+    width: 100%; height: 100%;
+    background-color: rgba(192, 57, 43, 0.62); color: #FFF;
+    display: none;
+}
+
+.end_p {
+    position: absolute;
+    top: -200px; left: 50%;
+    margin-left: -162px;
+    font-size: 200px;
+}
+
+.end_resulat {
+    position: absolute;
+    top: 150px; left: 50%;
+    margin-left: -90px;
+    font-size: 50px;
+}
+
+.end_winorloose {
+    position: absolute;
+    top: 207px; left: 50%;
+    margin-left: -79px;
+    font-size: 50px;
+}
+
+.end_hr {
+    width: 160px; height: 2px;
+    background-color: #FFF; color: #FFF;
+    border: none;
+    margin-top: 263px;
+}
+
